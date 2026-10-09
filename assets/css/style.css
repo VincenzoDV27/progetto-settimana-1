@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f1ec;
+  color: #2b2b2b;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+aside {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid #e6e0d3;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 2%;
+}
+
+section h2::before {
+  padding-right: 10px;
+  content: "\2756";
+  font-size: 20px;
+  color: hsl(45, 90%, 50%);
+}
+
+header {
+  background-image: url("../img/header-bg.jpg");
+  background-color: hsla(235, 100%, 7%, 0.616);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+  border-bottom: 3px solid hsl(45, 90%, 60%);
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 1,
+    "wght" 300,
+    "GRAD" 0,
+    "opsz" 24;
+  vertical-align: middle;
+}
+
+/* pagina progetti */
+
+.home {
+  margin-top: -30px;
+}
+
+code {
+  font-size: 15px;
+}
+
+/* END */
+
+/* titles article */
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: hsl(220, 60%, 25%);
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* END */
+
+/* nav */
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-right: 5px;
+  text-decoration: none;
+  margin-bottom: -80px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav span {
+  padding-right: 5px;
+}
+
+nav ul {
+  margin-bottom: -60px;
+  padding-inline-start: 0;
+}
+
+nav li:hover {
+  background-color: hsl(45, 90%, 60%);
+  border: 1px solid hsl(45, 90%, 60%);
+}
+
+nav li:hover a {
+  color: #1f3d7a;
+}
+
+.title-header {
+  color: white;
+  text-align: center;
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.description {
+  color: #f0e7c8;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* END */
+
+/* chi-sono */
+
+.chi-sono {
+  margin-top: -30px;
+}
+
+.photo-profile img {
+  width: 100px;
+  height: 100px;
+}
+
+.photo-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid hsl(45, 90%, 60%);
+  overflow: hidden;
+  float: left;
+  margin: 10px;
+}
+
+.italic {
+  color: #2d3953;
+}
+
+.italic::first-letter {
+  font-family: "Playfair Display", Georgia, serif;
+  color: hsl(220, 60%, 30%);
+  font-weight: bold;
+  font-size: 3em;
+  padding-right: 10px;
+  float: left;
+}
+
+/* END */
+
+/* table */
+
+table {
+  width: 100%;
+}
+
+table i {
+  padding-right: 5px;
+}
+
+table caption {
+  padding-bottom: 10px;
+  color: hsl(220, 30%, 40%);
+  text-align: left;
+}
+
+thead tr {
+  background-color: #f9f5ea;
+}
+
+thead tr th:last-child {
+  width: 50%;
+}
+
+thead {
+  height: 40px;
+}
+
+th {
+  color: hsl(220, 60%, 25%);
+  background-color: #f9f5ea;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ece6d8;
+}
+
+/* END */
+
+/* le mie competenze */
+.skills table i {
+  color: hsl(220, 60%, 30%);
+}
+
+.skills li:first-child {
+  font-weight: bold;
+}
+
+.stack {
+  color: #1f3d7a;
+}
+
+.skills li:nth-of-type(odd) {
+  background-color: #f5f7fb;
+}
+
+.barra {
+  width: 100%;
+  height: 10px;
+  background-color: #ece6d8;
+  border-radius: 15px;
+}
+
+.barra .lvl-html {
+  height: 100%;
+  border-radius: 15px;
+  background-color: hsl(45, 90%, 50%);
+  width: 80%;
+}
+
+.barra .lvl-css {
+  height: 100%;
+  border-radius: 15px;
+  background-color: hsl(45, 90%, 50%);
+  width: 60%;
+}
+
+.barra .lvl-git {
+  height: 100%;
+  border-radius: 15px;
+  background-color: hsl(45, 90%, 50%);
+  width: 50%;
+}
+
+.barra .lvl-cmd {
+  height: 100%;
+  border-radius: 15px;
+  background-color: hsl(45, 90%, 50%);
+  width: 40%;
+}
+
+.barra .lvl-mrk {
+  height: 100%;
+  border-radius: 15px;
+  background-color: hsl(45, 90%, 50%);
+  width: 70%;
+}
+
+.lvl-html span {
+  visibility: hidden;
+}
+
+/* END */
+
+/* le mie esperienze */
+
+th {
+  padding-left: 10px;
+  color: #1f3d7a;
+}
+
+/* END */
+
+/* i miei progetti */
+
+.container {
+  border-left: 5px solid #1f3d7a;
+  border-radius: 7px;
+  background-color: #fbf8ef;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.container h3 {
+  margin-top: 5px;
+}
+
+.container:nth-child(even) {
+  background-color: white;
+  border-left: 5px solid hsl(45, 90%, 50%);
+}
+
+i {
+  padding-right: 5px;
+}
+
+.github-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: hsl(220, 60%, 30%);
+}
+
+.github-link:hover {
+  color: hsl(220, 60%, 45%);
+  border-bottom: 3px solid hsl(45, 90%, 50%);
+}
+
+#new {
+  color: red;
+}
+
+.project-more {
+  text-align: right;
+}
+
+.project-more a {
+  font-weight: bold;
+  padding-bottom: 2px;
+  color: hsl(220, 60%, 30%);
+  text-decoration: none;
+  border-bottom: 2px solid hsl(45, 90%, 50%);
+}
+
+/* END */
+
+/* form contattami */
+
+input {
+  background-color: #fbf8f1;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  border: 1px solid #d6cfbf;
+  width: 100%;
+  padding: 10px;
+}
+
+input:focus {
+  background-color: white;
+  border: 1px solid hsl(220, 60%, 30%);
+}
+
+input::placeholder {
+  color: #a39b87;
+}
+
+input:last-of-type {
+  width: auto;
+}
+
+label {
+  color: #1f3d7a;
+  font-weight: bold;
+}
+
+label:last-of-type {
+  color: black;
+  font-weight: lighter;
+}
+
+select {
+  background-color: #fbf8f1;
+  border: 1px solid #d6cfbf;
+  padding: 10px;
+  width: 100%;
+}
+
+select:focus {
+  background-color: white;
+  border: 1px solid hsl(220, 60%, 30%);
+}
+
+textarea {
+  padding: 10px;
+  background-color: #fbf8f1;
+  width: 100%;
+  border: 1px solid #d6cfbf;
+}
+
+textarea:focus {
+  background-color: white;
+  border: 1px solid hsl(220, 60%, 30%);
+}
+
+textarea::placeholder {
+  color: #a39b87;
+}
+
+.accept {
+  color: #2b2b2b;
+}
+
+.submit-form {
+  background: hsl(220, 60%, 30%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 15%;
+  padding: 10px 20px;
+  border-radius: 10%;
+}
+
+.submit-form i {
+  padding-right: 10px;
+}
+
+.submit-form:hover {
+  background: hsl(220, 60%, 45%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+/* END */
+
+/* BANNER */
+
+.logo-sites i {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.logo-sites i:hover {
+  color: hsl(220, 60%, 20%);
+  background: hsl(45, 90%, 60%);
+}
+
+.cr-banner {
+  padding: 30px;
+  background-color: hsl(220, 40%, 15%);
+  font-size: 15px;
+  text-align: center;
+  color: #d6d2c4;
+}
+
+/* END */
